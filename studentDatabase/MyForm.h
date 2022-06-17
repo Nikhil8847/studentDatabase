@@ -1647,7 +1647,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             // 
             this->numericUpDown2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->numericUpDown2->Location = System::Drawing::Point(257, 71);
+            this->numericUpDown2->Location = System::Drawing::Point(257, 70);
             this->numericUpDown2->Name = L"numericUpDown2";
             this->numericUpDown2->Size = System::Drawing::Size(120, 48);
             this->numericUpDown2->TabIndex = 2;
@@ -1702,7 +1702,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             // 
             this->numericUpDown1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->numericUpDown1->Location = System::Drawing::Point(257, 126);
+            this->numericUpDown1->Location = System::Drawing::Point(257, 127);
             this->numericUpDown1->Name = L"numericUpDown1";
             this->numericUpDown1->Size = System::Drawing::Size(120, 48);
             this->numericUpDown1->TabIndex = 2;
