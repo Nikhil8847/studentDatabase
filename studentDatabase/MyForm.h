@@ -193,8 +193,45 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->tabControl1 = (gcnew System::Windows::Forms::TabControl());
             this->tabPage1 = (gcnew System::Windows::Forms::TabPage());
             this->panel1 = (gcnew System::Windows::Forms::Panel());
+            this->label38 = (gcnew System::Windows::Forms::Label());
+            this->textBox17 = (gcnew System::Windows::Forms::TextBox());
+            this->label37 = (gcnew System::Windows::Forms::Label());
+            this->label39 = (gcnew System::Windows::Forms::Label());
+            this->label36 = (gcnew System::Windows::Forms::Label());
+            this->textBox16 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox13 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox15 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox12 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox14 = (gcnew System::Windows::Forms::TextBox());
+            this->label35 = (gcnew System::Windows::Forms::Label());
+            this->label34 = (gcnew System::Windows::Forms::Label());
             this->panel7 = (gcnew System::Windows::Forms::Panel());
+            this->btnExit = (gcnew System::Windows::Forms::Button());
+            this->btnResult = (gcnew System::Windows::Forms::Button());
+            this->btnReset = (gcnew System::Windows::Forms::Button());
+            this->btnAddNew = (gcnew System::Windows::Forms::Button());
+            this->panel6 = (gcnew System::Windows::Forms::Panel());
+            this->numericUpDown1 = (gcnew System::Windows::Forms::NumericUpDown());
+            this->numericUpDown2 = (gcnew System::Windows::Forms::NumericUpDown());
+            this->label21 = (gcnew System::Windows::Forms::Label());
+            this->label15 = (gcnew System::Windows::Forms::Label());
+            this->label17 = (gcnew System::Windows::Forms::Label());
+            this->label20 = (gcnew System::Windows::Forms::Label());
+            this->label16 = (gcnew System::Windows::Forms::Label());
+            this->textBox18 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox20 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox19 = (gcnew System::Windows::Forms::TextBox());
             this->panel4 = (gcnew System::Windows::Forms::Panel());
+            this->label19 = (gcnew System::Windows::Forms::Label());
+            this->label12 = (gcnew System::Windows::Forms::Label());
+            this->comboBox5 = (gcnew System::Windows::Forms::ComboBox());
+            this->comboBox4 = (gcnew System::Windows::Forms::ComboBox());
+            this->comboBox3 = (gcnew System::Windows::Forms::ComboBox());
+            this->comboBox7 = (gcnew System::Windows::Forms::ComboBox());
+            this->comboBox2 = (gcnew System::Windows::Forms::ComboBox());
+            this->label18 = (gcnew System::Windows::Forms::Label());
+            this->label13 = (gcnew System::Windows::Forms::Label());
+            this->label14 = (gcnew System::Windows::Forms::Label());
             this->panel5 = (gcnew System::Windows::Forms::Panel());
             this->cboModule6 = (gcnew System::Windows::Forms::ComboBox());
             this->cboModule8 = (gcnew System::Windows::Forms::ComboBox());
@@ -229,88 +266,51 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->panel8 = (gcnew System::Windows::Forms::Panel());
             this->monthCalendar1 = (gcnew System::Windows::Forms::MonthCalendar());
             this->panel3 = (gcnew System::Windows::Forms::Panel());
-            this->panel2 = (gcnew System::Windows::Forms::Panel());
-            this->tabPage2 = (gcnew System::Windows::Forms::TabPage());
-            this->label12 = (gcnew System::Windows::Forms::Label());
-            this->label13 = (gcnew System::Windows::Forms::Label());
-            this->label14 = (gcnew System::Windows::Forms::Label());
-            this->label19 = (gcnew System::Windows::Forms::Label());
-            this->label22 = (gcnew System::Windows::Forms::Label());
-            this->label23 = (gcnew System::Windows::Forms::Label());
-            this->label24 = (gcnew System::Windows::Forms::Label());
-            this->label25 = (gcnew System::Windows::Forms::Label());
             this->label26 = (gcnew System::Windows::Forms::Label());
-            this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
-            this->comboBox2 = (gcnew System::Windows::Forms::ComboBox());
-            this->comboBox3 = (gcnew System::Windows::Forms::ComboBox());
-            this->comboBox4 = (gcnew System::Windows::Forms::ComboBox());
-            this->comboBox5 = (gcnew System::Windows::Forms::ComboBox());
-            this->textBox1 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox2 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox3 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox4 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox5 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox6 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox7 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox8 = (gcnew System::Windows::Forms::TextBox());
-            this->comboBox6 = (gcnew System::Windows::Forms::ComboBox());
-            this->label27 = (gcnew System::Windows::Forms::Label());
-            this->label28 = (gcnew System::Windows::Forms::Label());
-            this->label29 = (gcnew System::Windows::Forms::Label());
-            this->label30 = (gcnew System::Windows::Forms::Label());
-            this->label31 = (gcnew System::Windows::Forms::Label());
-            this->textBox9 = (gcnew System::Windows::Forms::TextBox());
-            this->label32 = (gcnew System::Windows::Forms::Label());
-            this->textBox10 = (gcnew System::Windows::Forms::TextBox());
-            this->label33 = (gcnew System::Windows::Forms::Label());
-            this->textBox11 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox12 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox13 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox14 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox15 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox16 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox17 = (gcnew System::Windows::Forms::TextBox());
-            this->label34 = (gcnew System::Windows::Forms::Label());
-            this->label35 = (gcnew System::Windows::Forms::Label());
-            this->label36 = (gcnew System::Windows::Forms::Label());
-            this->label37 = (gcnew System::Windows::Forms::Label());
-            this->label38 = (gcnew System::Windows::Forms::Label());
-            this->label39 = (gcnew System::Windows::Forms::Label());
-            this->btnAddNew = (gcnew System::Windows::Forms::Button());
-            this->btnReset = (gcnew System::Windows::Forms::Button());
-            this->btnResult = (gcnew System::Windows::Forms::Button());
-            this->btnExit = (gcnew System::Windows::Forms::Button());
-            this->backgroundWorker1 = (gcnew System::ComponentModel::BackgroundWorker());
-            this->comboBox7 = (gcnew System::Windows::Forms::ComboBox());
-            this->label41 = (gcnew System::Windows::Forms::Label());
-            this->label40 = (gcnew System::Windows::Forms::Label());
-            this->comboBox8 = (gcnew System::Windows::Forms::ComboBox());
-            this->comboBox9 = (gcnew System::Windows::Forms::ComboBox());
+            this->label25 = (gcnew System::Windows::Forms::Label());
+            this->label22 = (gcnew System::Windows::Forms::Label());
             this->label42 = (gcnew System::Windows::Forms::Label());
-            this->textBox18 = (gcnew System::Windows::Forms::TextBox());
-            this->label16 = (gcnew System::Windows::Forms::Label());
-            this->label20 = (gcnew System::Windows::Forms::Label());
-            this->label17 = (gcnew System::Windows::Forms::Label());
-            this->label21 = (gcnew System::Windows::Forms::Label());
-            this->numericUpDown2 = (gcnew System::Windows::Forms::NumericUpDown());
-            this->panel6 = (gcnew System::Windows::Forms::Panel());
-            this->label18 = (gcnew System::Windows::Forms::Label());
-            this->label15 = (gcnew System::Windows::Forms::Label());
-            this->numericUpDown1 = (gcnew System::Windows::Forms::NumericUpDown());
-            this->textBox19 = (gcnew System::Windows::Forms::TextBox());
-            this->textBox20 = (gcnew System::Windows::Forms::TextBox());
+            this->label40 = (gcnew System::Windows::Forms::Label());
+            this->label24 = (gcnew System::Windows::Forms::Label());
+            this->label23 = (gcnew System::Windows::Forms::Label());
+            this->comboBox9 = (gcnew System::Windows::Forms::ComboBox());
+            this->comboBox8 = (gcnew System::Windows::Forms::ComboBox());
+            this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
+            this->textBox4 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox3 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+            this->panel2 = (gcnew System::Windows::Forms::Panel());
+            this->label41 = (gcnew System::Windows::Forms::Label());
+            this->label33 = (gcnew System::Windows::Forms::Label());
+            this->label31 = (gcnew System::Windows::Forms::Label());
+            this->textBox6 = (gcnew System::Windows::Forms::TextBox());
+            this->label30 = (gcnew System::Windows::Forms::Label());
+            this->textBox5 = (gcnew System::Windows::Forms::TextBox());
+            this->label29 = (gcnew System::Windows::Forms::Label());
+            this->textBox11 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox10 = (gcnew System::Windows::Forms::TextBox());
+            this->label32 = (gcnew System::Windows::Forms::Label());
+            this->textBox7 = (gcnew System::Windows::Forms::TextBox());
+            this->textBox9 = (gcnew System::Windows::Forms::TextBox());
+            this->label28 = (gcnew System::Windows::Forms::Label());
+            this->textBox8 = (gcnew System::Windows::Forms::TextBox());
+            this->label27 = (gcnew System::Windows::Forms::Label());
+            this->comboBox6 = (gcnew System::Windows::Forms::ComboBox());
+            this->tabPage2 = (gcnew System::Windows::Forms::TabPage());
+            this->backgroundWorker1 = (gcnew System::ComponentModel::BackgroundWorker());
             this->tabControl1->SuspendLayout();
             this->tabPage1->SuspendLayout();
             this->panel1->SuspendLayout();
             this->panel7->SuspendLayout();
+            this->panel6->SuspendLayout();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown1))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown2))->BeginInit();
             this->panel4->SuspendLayout();
             this->panel5->SuspendLayout();
             this->panel8->SuspendLayout();
             this->panel3->SuspendLayout();
             this->panel2->SuspendLayout();
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown2))->BeginInit();
-            this->panel6->SuspendLayout();
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown1))->BeginInit();
             this->SuspendLayout();
             // 
             // tabControl1
@@ -366,6 +366,146 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->panel1->TabIndex = 0;
             this->panel1->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MyForm::panel1_Paint);
             // 
+            // label38
+            // 
+            this->label38->AutoSize = true;
+            this->label38->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label38->Location = System::Drawing::Point(3, 203);
+            this->label38->Name = L"label38";
+            this->label38->Size = System::Drawing::Size(209, 40);
+            this->label38->TabIndex = 1;
+            this->label38->Text = L"Occupation";
+            this->label38->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label38->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // textBox17
+            // 
+            this->textBox17->AccessibleName = L"txtScore1";
+            this->textBox17->Enabled = false;
+            this->textBox17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox17->Location = System::Drawing::Point(245, 256);
+            this->textBox17->Name = L"textBox17";
+            this->textBox17->Size = System::Drawing::Size(348, 48);
+            this->textBox17->TabIndex = 2;
+            // 
+            // label37
+            // 
+            this->label37->AutoSize = true;
+            this->label37->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label37->Location = System::Drawing::Point(3, 89);
+            this->label37->Name = L"label37";
+            this->label37->Size = System::Drawing::Size(203, 40);
+            this->label37->TabIndex = 1;
+            this->label37->Text = L"First Name";
+            this->label37->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label37->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // label39
+            // 
+            this->label39->AutoSize = true;
+            this->label39->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label39->Location = System::Drawing::Point(3, 314);
+            this->label39->Name = L"label39";
+            this->label39->Size = System::Drawing::Size(156, 40);
+            this->label39->TabIndex = 1;
+            this->label39->Text = L"Address";
+            this->label39->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // label36
+            // 
+            this->label36->AutoSize = true;
+            this->label36->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label36->Location = System::Drawing::Point(3, 259);
+            this->label36->Name = L"label36";
+            this->label36->Size = System::Drawing::Size(199, 40);
+            this->label36->TabIndex = 1;
+            this->label36->Text = L"Mobile No.";
+            this->label36->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // textBox16
+            // 
+            this->textBox16->AccessibleName = L"txtScore1";
+            this->textBox16->Enabled = false;
+            this->textBox16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox16->Location = System::Drawing::Point(245, 314);
+            this->textBox16->Name = L"textBox16";
+            this->textBox16->Size = System::Drawing::Size(348, 48);
+            this->textBox16->TabIndex = 2;
+            // 
+            // textBox13
+            // 
+            this->textBox13->AccessibleName = L"txtScore1";
+            this->textBox13->Enabled = false;
+            this->textBox13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox13->Location = System::Drawing::Point(245, 80);
+            this->textBox13->Name = L"textBox13";
+            this->textBox13->Size = System::Drawing::Size(348, 48);
+            this->textBox13->TabIndex = 2;
+            // 
+            // textBox15
+            // 
+            this->textBox15->AccessibleName = L"txtScore1";
+            this->textBox15->Enabled = false;
+            this->textBox15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox15->Location = System::Drawing::Point(245, 197);
+            this->textBox15->Name = L"textBox15";
+            this->textBox15->Size = System::Drawing::Size(348, 48);
+            this->textBox15->TabIndex = 2;
+            // 
+            // textBox12
+            // 
+            this->textBox12->AccessibleName = L"txtScore1";
+            this->textBox12->Enabled = false;
+            this->textBox12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox12->Location = System::Drawing::Point(245, 138);
+            this->textBox12->Name = L"textBox12";
+            this->textBox12->Size = System::Drawing::Size(348, 48);
+            this->textBox12->TabIndex = 2;
+            // 
+            // textBox14
+            // 
+            this->textBox14->AccessibleName = L"txtScore1";
+            this->textBox14->Enabled = false;
+            this->textBox14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox14->Location = System::Drawing::Point(245, 21);
+            this->textBox14->Name = L"textBox14";
+            this->textBox14->Size = System::Drawing::Size(348, 48);
+            this->textBox14->TabIndex = 2;
+            // 
+            // label35
+            // 
+            this->label35->AutoSize = true;
+            this->label35->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label35->Location = System::Drawing::Point(3, 35);
+            this->label35->Name = L"label35";
+            this->label35->Size = System::Drawing::Size(173, 40);
+            this->label35->TabIndex = 1;
+            this->label35->Text = L"Guardian";
+            this->label35->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // label34
+            // 
+            this->label34->AutoSize = true;
+            this->label34->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label34->Location = System::Drawing::Point(3, 145);
+            this->label34->Name = L"label34";
+            this->label34->Size = System::Drawing::Size(200, 40);
+            this->label34->TabIndex = 1;
+            this->label34->Text = L"Last Name";
+            this->label34->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
             // panel7
             // 
             this->panel7->BackColor = System::Drawing::SystemColors::Control;
@@ -379,6 +519,189 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->panel7->Name = L"panel7";
             this->panel7->Size = System::Drawing::Size(846, 153);
             this->panel7->TabIndex = 0;
+            // 
+            // btnExit
+            // 
+            this->btnExit->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->btnExit->Location = System::Drawing::Point(632, 48);
+            this->btnExit->Name = L"btnExit";
+            this->btnExit->Size = System::Drawing::Size(150, 48);
+            this->btnExit->TabIndex = 0;
+            this->btnExit->Text = L"Exit";
+            this->btnExit->UseVisualStyleBackColor = true;
+            // 
+            // btnResult
+            // 
+            this->btnResult->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->btnResult->Location = System::Drawing::Point(444, 48);
+            this->btnResult->Name = L"btnResult";
+            this->btnResult->Size = System::Drawing::Size(150, 48);
+            this->btnResult->TabIndex = 0;
+            this->btnResult->Text = L"Result";
+            this->btnResult->UseVisualStyleBackColor = true;
+            // 
+            // btnReset
+            // 
+            this->btnReset->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->btnReset->Location = System::Drawing::Point(255, 48);
+            this->btnReset->Name = L"btnReset";
+            this->btnReset->Size = System::Drawing::Size(150, 48);
+            this->btnReset->TabIndex = 0;
+            this->btnReset->Text = L"Reset";
+            this->btnReset->UseVisualStyleBackColor = true;
+            // 
+            // btnAddNew
+            // 
+            this->btnAddNew->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->btnAddNew->Location = System::Drawing::Point(66, 48);
+            this->btnAddNew->Name = L"btnAddNew";
+            this->btnAddNew->Size = System::Drawing::Size(150, 48);
+            this->btnAddNew->TabIndex = 0;
+            this->btnAddNew->Text = L"Add";
+            this->btnAddNew->UseVisualStyleBackColor = true;
+            // 
+            // panel6
+            // 
+            this->panel6->BackColor = System::Drawing::SystemColors::Control;
+            this->panel6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
+            this->panel6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+            this->panel6->Controls->Add(this->numericUpDown1);
+            this->panel6->Controls->Add(this->numericUpDown2);
+            this->panel6->Controls->Add(this->label21);
+            this->panel6->Controls->Add(this->label15);
+            this->panel6->Controls->Add(this->label17);
+            this->panel6->Controls->Add(this->label20);
+            this->panel6->Controls->Add(this->label16);
+            this->panel6->Controls->Add(this->textBox18);
+            this->panel6->Controls->Add(this->textBox20);
+            this->panel6->Controls->Add(this->textBox19);
+            this->panel6->Location = System::Drawing::Point(1094, 488);
+            this->panel6->Name = L"panel6";
+            this->panel6->Size = System::Drawing::Size(410, 328);
+            this->panel6->TabIndex = 0;
+            // 
+            // numericUpDown1
+            // 
+            this->numericUpDown1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->numericUpDown1->Location = System::Drawing::Point(257, 127);
+            this->numericUpDown1->Name = L"numericUpDown1";
+            this->numericUpDown1->Size = System::Drawing::Size(120, 48);
+            this->numericUpDown1->TabIndex = 2;
+            this->numericUpDown1->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            // 
+            // numericUpDown2
+            // 
+            this->numericUpDown2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->numericUpDown2->Location = System::Drawing::Point(257, 70);
+            this->numericUpDown2->Name = L"numericUpDown2";
+            this->numericUpDown2->Size = System::Drawing::Size(120, 48);
+            this->numericUpDown2->TabIndex = 2;
+            this->numericUpDown2->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            // 
+            // label21
+            // 
+            this->label21->AutoSize = true;
+            this->label21->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label21->Location = System::Drawing::Point(20, 187);
+            this->label21->Name = L"label21";
+            this->label21->Size = System::Drawing::Size(203, 40);
+            this->label21->TabIndex = 1;
+            this->label21->Text = L"10th Board";
+            this->label21->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label21->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // label15
+            // 
+            this->label15->AutoSize = true;
+            this->label15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label15->Location = System::Drawing::Point(20, 133);
+            this->label15->Name = L"label15";
+            this->label15->Size = System::Drawing::Size(171, 40);
+            this->label15->TabIndex = 1;
+            this->label15->Text = L"Backlogs";
+            this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label15->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // label17
+            // 
+            this->label17->AutoSize = true;
+            this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label17->Location = System::Drawing::Point(20, 73);
+            this->label17->Name = L"label17";
+            this->label17->Size = System::Drawing::Size(151, 40);
+            this->label17->TabIndex = 1;
+            this->label17->Text = L"Siblings";
+            this->label17->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label17->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // label20
+            // 
+            this->label20->AutoSize = true;
+            this->label20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label20->Location = System::Drawing::Point(20, 243);
+            this->label20->Name = L"label20";
+            this->label20->Size = System::Drawing::Size(203, 40);
+            this->label20->TabIndex = 1;
+            this->label20->Text = L"12th Board";
+            this->label20->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // label16
+            // 
+            this->label16->AutoSize = true;
+            this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label16->Location = System::Drawing::Point(20, 19);
+            this->label16->Name = L"label16";
+            this->label16->Size = System::Drawing::Size(140, 40);
+            this->label16->TabIndex = 1;
+            this->label16->Text = L"Income";
+            this->label16->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // textBox18
+            // 
+            this->textBox18->AccessibleName = L"txtScore1";
+            this->textBox18->Enabled = false;
+            this->textBox18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox18->Location = System::Drawing::Point(257, 11);
+            this->textBox18->Name = L"textBox18";
+            this->textBox18->Size = System::Drawing::Size(120, 48);
+            this->textBox18->TabIndex = 2;
+            this->textBox18->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            // 
+            // textBox20
+            // 
+            this->textBox20->AccessibleName = L"txtScore1";
+            this->textBox20->Enabled = false;
+            this->textBox20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox20->Location = System::Drawing::Point(257, 241);
+            this->textBox20->Name = L"textBox20";
+            this->textBox20->Size = System::Drawing::Size(120, 48);
+            this->textBox20->TabIndex = 2;
+            this->textBox20->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            // 
+            // textBox19
+            // 
+            this->textBox19->AccessibleName = L"txtScore1";
+            this->textBox19->Enabled = false;
+            this->textBox19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox19->Location = System::Drawing::Point(257, 184);
+            this->textBox19->Name = L"textBox19";
+            this->textBox19->Size = System::Drawing::Size(120, 48);
+            this->textBox19->TabIndex = 2;
+            this->textBox19->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
             // 
             // panel4
             // 
@@ -399,6 +722,138 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->panel4->Name = L"panel4";
             this->panel4->Size = System::Drawing::Size(423, 328);
             this->panel4->TabIndex = 0;
+            // 
+            // label19
+            // 
+            this->label19->AutoSize = true;
+            this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label19->Location = System::Drawing::Point(19, 187);
+            this->label19->Name = L"label19";
+            this->label19->Size = System::Drawing::Size(168, 40);
+            this->label19->TabIndex = 1;
+            this->label19->Text = L"Hosteller";
+            this->label19->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label19->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // label12
+            // 
+            this->label12->AutoSize = true;
+            this->label12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label12->Location = System::Drawing::Point(19, 73);
+            this->label12->Name = L"label12";
+            this->label12->Size = System::Drawing::Size(212, 40);
+            this->label12->TabIndex = 1;
+            this->label12->Text = L"Other State";
+            this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label12->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // comboBox5
+            // 
+            this->comboBox5->AccessibleName = L"cboModule1";
+            this->comboBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->comboBox5->FormattingEnabled = true;
+            this->comboBox5->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
+            this->comboBox5->Location = System::Drawing::Point(241, 243);
+            this->comboBox5->Name = L"comboBox5";
+            this->comboBox5->Size = System::Drawing::Size(164, 48);
+            this->comboBox5->TabIndex = 3;
+            this->comboBox5->Text = L"Choose";
+            this->comboBox5->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox2_SelectedIndexChanged);
+            // 
+            // comboBox4
+            // 
+            this->comboBox4->AccessibleName = L"cboModule1";
+            this->comboBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->comboBox4->FormattingEnabled = true;
+            this->comboBox4->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
+            this->comboBox4->Location = System::Drawing::Point(241, 187);
+            this->comboBox4->Name = L"comboBox4";
+            this->comboBox4->Size = System::Drawing::Size(164, 48);
+            this->comboBox4->TabIndex = 3;
+            this->comboBox4->Text = L"Choose";
+            this->comboBox4->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox2_SelectedIndexChanged);
+            // 
+            // comboBox3
+            // 
+            this->comboBox3->AccessibleName = L"cboModule1";
+            this->comboBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->comboBox3->FormattingEnabled = true;
+            this->comboBox3->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
+            this->comboBox3->Location = System::Drawing::Point(241, 130);
+            this->comboBox3->Name = L"comboBox3";
+            this->comboBox3->Size = System::Drawing::Size(164, 48);
+            this->comboBox3->TabIndex = 3;
+            this->comboBox3->Text = L"Choose";
+            this->comboBox3->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
+            // 
+            // comboBox7
+            // 
+            this->comboBox7->AccessibleName = L"cboModule1";
+            this->comboBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->comboBox7->FormattingEnabled = true;
+            this->comboBox7->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
+            this->comboBox7->Location = System::Drawing::Point(241, 16);
+            this->comboBox7->Name = L"comboBox7";
+            this->comboBox7->Size = System::Drawing::Size(164, 48);
+            this->comboBox7->TabIndex = 3;
+            this->comboBox7->Text = L"Choose";
+            this->comboBox7->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox2_SelectedIndexChanged);
+            // 
+            // comboBox2
+            // 
+            this->comboBox2->AccessibleName = L"cboModule1";
+            this->comboBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->comboBox2->FormattingEnabled = true;
+            this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
+            this->comboBox2->Location = System::Drawing::Point(241, 73);
+            this->comboBox2->Name = L"comboBox2";
+            this->comboBox2->Size = System::Drawing::Size(164, 48);
+            this->comboBox2->TabIndex = 3;
+            this->comboBox2->Text = L"Choose";
+            this->comboBox2->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox2_SelectedIndexChanged);
+            // 
+            // label18
+            // 
+            this->label18->AutoSize = true;
+            this->label18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label18->Location = System::Drawing::Point(19, 246);
+            this->label18->Name = L"label18";
+            this->label18->Size = System::Drawing::Size(216, 40);
+            this->label18->TabIndex = 1;
+            this->label18->Text = L"Scholarship";
+            this->label18->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // label13
+            // 
+            this->label13->AutoSize = true;
+            this->label13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label13->Location = System::Drawing::Point(19, 19);
+            this->label13->Name = L"label13";
+            this->label13->Size = System::Drawing::Size(224, 40);
+            this->label13->TabIndex = 1;
+            this->label13->Text = L"Day Scholar";
+            this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // label14
+            // 
+            this->label14->AutoSize = true;
+            this->label14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label14->Location = System::Drawing::Point(19, 129);
+            this->label14->Name = L"label14";
+            this->label14->Size = System::Drawing::Size(179, 40);
+            this->label14->TabIndex = 1;
+            this->label14->Text = L"Overseas";
+            this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
             // 
             // panel5
             // 
@@ -694,7 +1149,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->label8->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
             this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label8->Location = System::Drawing::Point(14, 757);
+            this->label8->Location = System::Drawing::Point(14, 763);
             this->label8->Name = L"label8";
             this->label8->Size = System::Drawing::Size(40, 42);
             this->label8->TabIndex = 1;
@@ -728,7 +1183,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->label7->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
             this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label7->Location = System::Drawing::Point(14, 628);
+            this->label7->Location = System::Drawing::Point(14, 634);
             this->label7->Name = L"label7";
             this->label7->Size = System::Drawing::Size(40, 42);
             this->label7->TabIndex = 1;
@@ -740,7 +1195,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->label4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
             this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label4->Location = System::Drawing::Point(14, 498);
+            this->label4->Location = System::Drawing::Point(14, 501);
             this->label4->Name = L"label4";
             this->label4->Size = System::Drawing::Size(40, 42);
             this->label4->TabIndex = 1;
@@ -776,7 +1231,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->label6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
             this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label6->Location = System::Drawing::Point(14, 695);
+            this->label6->Location = System::Drawing::Point(14, 698);
             this->label6->Name = L"label6";
             this->label6->Size = System::Drawing::Size(40, 42);
             this->label6->TabIndex = 1;
@@ -788,7 +1243,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->label2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
             this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label2->Location = System::Drawing::Point(14, 368);
+            this->label2->Location = System::Drawing::Point(14, 371);
             this->label2->Name = L"label2";
             this->label2->Size = System::Drawing::Size(40, 42);
             this->label2->TabIndex = 1;
@@ -800,7 +1255,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->label5->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
             this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label5->Location = System::Drawing::Point(14, 565);
+            this->label5->Location = System::Drawing::Point(14, 569);
             this->label5->Name = L"label5";
             this->label5->Size = System::Drawing::Size(40, 42);
             this->label5->TabIndex = 1;
@@ -812,7 +1267,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->label3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
             this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label3->Location = System::Drawing::Point(14, 432);
+            this->label3->Location = System::Drawing::Point(14, 436);
             this->label3->Name = L"label3";
             this->label3->Size = System::Drawing::Size(40, 42);
             this->label3->TabIndex = 1;
@@ -824,7 +1279,7 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->label1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
             this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label1->Location = System::Drawing::Point(14, 300);
+            this->label1->Location = System::Drawing::Point(14, 303);
             this->label1->Name = L"label1";
             this->label1->Size = System::Drawing::Size(40, 42);
             this->label1->TabIndex = 1;
@@ -874,6 +1329,181 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->panel3->Size = System::Drawing::Size(846, 447);
             this->panel3->TabIndex = 0;
             // 
+            // label26
+            // 
+            this->label26->AutoSize = true;
+            this->label26->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label26->Location = System::Drawing::Point(19, 192);
+            this->label26->Name = L"label26";
+            this->label26->Size = System::Drawing::Size(292, 40);
+            this->label26->TabIndex = 1;
+            this->label26->Text = L"Dean Of Faculty";
+            this->label26->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label26->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // label25
+            // 
+            this->label25->AutoSize = true;
+            this->label25->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label25->Location = System::Drawing::Point(19, 78);
+            this->label25->Name = L"label25";
+            this->label25->Size = System::Drawing::Size(187, 40);
+            this->label25->TabIndex = 1;
+            this->label25->Text = L"Course ID";
+            this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label25->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // label22
+            // 
+            this->label22->AutoSize = true;
+            this->label22->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label22->Location = System::Drawing::Point(19, 134);
+            this->label22->Name = L"label22";
+            this->label22->Size = System::Drawing::Size(140, 40);
+            this->label22->TabIndex = 1;
+            this->label22->Text = L"Faculty";
+            this->label22->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // label42
+            // 
+            this->label42->AutoSize = true;
+            this->label42->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label42->Location = System::Drawing::Point(19, 365);
+            this->label42->Name = L"label42";
+            this->label42->Size = System::Drawing::Size(265, 40);
+            this->label42->TabIndex = 1;
+            this->label42->Text = L"Difficulty Level";
+            this->label42->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // label40
+            // 
+            this->label40->AutoSize = true;
+            this->label40->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label40->Location = System::Drawing::Point(19, 306);
+            this->label40->Name = L"label40";
+            this->label40->Size = System::Drawing::Size(284, 40);
+            this->label40->TabIndex = 1;
+            this->label40->Text = L"Course Medium";
+            this->label40->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // label24
+            // 
+            this->label24->AutoSize = true;
+            this->label24->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label24->Location = System::Drawing::Point(19, 248);
+            this->label24->Name = L"label24";
+            this->label24->Size = System::Drawing::Size(268, 40);
+            this->label24->TabIndex = 1;
+            this->label24->Text = L"Course Mentor";
+            this->label24->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // label23
+            // 
+            this->label23->AutoSize = true;
+            this->label23->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label23->Location = System::Drawing::Point(19, 24);
+            this->label23->Name = L"label23";
+            this->label23->Size = System::Drawing::Size(139, 40);
+            this->label23->TabIndex = 1;
+            this->label23->Text = L"Course";
+            this->label23->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
+            // comboBox9
+            // 
+            this->comboBox9->AccessibleName = L"cboModule1";
+            this->comboBox9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->comboBox9->FormattingEnabled = true;
+            this->comboBox9->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"Easy", L"Moderate", L"Difficult" });
+            this->comboBox9->Location = System::Drawing::Point(322, 362);
+            this->comboBox9->Name = L"comboBox9";
+            this->comboBox9->Size = System::Drawing::Size(504, 48);
+            this->comboBox9->TabIndex = 3;
+            this->comboBox9->Text = L" - Select-";
+            this->comboBox9->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
+            // 
+            // comboBox8
+            // 
+            this->comboBox8->AccessibleName = L"cboModule1";
+            this->comboBox8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->comboBox8->FormattingEnabled = true;
+            this->comboBox8->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"English", L"Hindi", L"Punjabi" });
+            this->comboBox8->Location = System::Drawing::Point(322, 303);
+            this->comboBox8->Name = L"comboBox8";
+            this->comboBox8->Size = System::Drawing::Size(504, 48);
+            this->comboBox8->TabIndex = 3;
+            this->comboBox8->Text = L"-Select a Language-";
+            this->comboBox8->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
+            // 
+            // comboBox1
+            // 
+            this->comboBox1->AccessibleName = L"cboModule1";
+            this->comboBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->comboBox1->FormattingEnabled = true;
+            this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(5) {
+                L"", L"BCA ( Bachelor of Computer Applications )",
+                    L"B.Sc. in Information Technology ", L"B.Tech. Computer Science and Engg", L"B.Tech. Computer Engg and Communications"
+            });
+            this->comboBox1->Location = System::Drawing::Point(322, 16);
+            this->comboBox1->Name = L"comboBox1";
+            this->comboBox1->Size = System::Drawing::Size(504, 48);
+            this->comboBox1->TabIndex = 3;
+            this->comboBox1->Text = L"-Select a Course-";
+            this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
+            // 
+            // textBox4
+            // 
+            this->textBox4->AccessibleName = L"txtScore1";
+            this->textBox4->Enabled = false;
+            this->textBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox4->Location = System::Drawing::Point(322, 245);
+            this->textBox4->Name = L"textBox4";
+            this->textBox4->Size = System::Drawing::Size(504, 48);
+            this->textBox4->TabIndex = 2;
+            // 
+            // textBox3
+            // 
+            this->textBox3->AccessibleName = L"txtScore1";
+            this->textBox3->Enabled = false;
+            this->textBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox3->Location = System::Drawing::Point(322, 187);
+            this->textBox3->Name = L"textBox3";
+            this->textBox3->Size = System::Drawing::Size(504, 48);
+            this->textBox3->TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            this->textBox2->AccessibleName = L"txtScore1";
+            this->textBox2->Enabled = false;
+            this->textBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox2->Location = System::Drawing::Point(322, 130);
+            this->textBox2->Name = L"textBox2";
+            this->textBox2->Size = System::Drawing::Size(504, 48);
+            this->textBox2->TabIndex = 2;
+            // 
+            // textBox1
+            // 
+            this->textBox1->AccessibleName = L"txtScore1";
+            this->textBox1->Enabled = false;
+            this->textBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox1->Location = System::Drawing::Point(322, 72);
+            this->textBox1->Name = L"textBox1";
+            this->textBox1->Size = System::Drawing::Size(504, 48);
+            this->textBox1->TabIndex = 2;
+            // 
             // panel2
             // 
             this->panel2->BackColor = System::Drawing::SystemColors::Control;
@@ -901,398 +1531,18 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->panel2->TabIndex = 0;
             this->panel2->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MyForm::panel2_Paint);
             // 
-            // tabPage2
+            // label41
             // 
-            this->tabPage2->Location = System::Drawing::Point(4, 29);
-            this->tabPage2->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
-            this->tabPage2->Name = L"tabPage2";
-            this->tabPage2->Padding = System::Windows::Forms::Padding(4, 5, 4, 5);
-            this->tabPage2->Size = System::Drawing::Size(1917, 1017);
-            this->tabPage2->TabIndex = 1;
-            this->tabPage2->Text = L"Student Database";
-            this->tabPage2->UseVisualStyleBackColor = true;
-            // 
-            // label12
-            // 
-            this->label12->AutoSize = true;
-            this->label12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            this->label41->AutoSize = true;
+            this->label41->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label12->Location = System::Drawing::Point(19, 73);
-            this->label12->Name = L"label12";
-            this->label12->Size = System::Drawing::Size(212, 40);
-            this->label12->TabIndex = 1;
-            this->label12->Text = L"Other State";
-            this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label12->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // label13
-            // 
-            this->label13->AutoSize = true;
-            this->label13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label13->Location = System::Drawing::Point(19, 19);
-            this->label13->Name = L"label13";
-            this->label13->Size = System::Drawing::Size(224, 40);
-            this->label13->TabIndex = 1;
-            this->label13->Text = L"Day Scholar";
-            this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label14
-            // 
-            this->label14->AutoSize = true;
-            this->label14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label14->Location = System::Drawing::Point(19, 129);
-            this->label14->Name = L"label14";
-            this->label14->Size = System::Drawing::Size(179, 40);
-            this->label14->TabIndex = 1;
-            this->label14->Text = L"Overseas";
-            this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label19
-            // 
-            this->label19->AutoSize = true;
-            this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label19->Location = System::Drawing::Point(19, 187);
-            this->label19->Name = L"label19";
-            this->label19->Size = System::Drawing::Size(168, 40);
-            this->label19->TabIndex = 1;
-            this->label19->Text = L"Hosteller";
-            this->label19->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label19->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // label22
-            // 
-            this->label22->AutoSize = true;
-            this->label22->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label22->Location = System::Drawing::Point(19, 134);
-            this->label22->Name = L"label22";
-            this->label22->Size = System::Drawing::Size(140, 40);
-            this->label22->TabIndex = 1;
-            this->label22->Text = L"Faculty";
-            this->label22->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label23
-            // 
-            this->label23->AutoSize = true;
-            this->label23->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label23->Location = System::Drawing::Point(19, 24);
-            this->label23->Name = L"label23";
-            this->label23->Size = System::Drawing::Size(139, 40);
-            this->label23->TabIndex = 1;
-            this->label23->Text = L"Course";
-            this->label23->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label24
-            // 
-            this->label24->AutoSize = true;
-            this->label24->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label24->Location = System::Drawing::Point(19, 248);
-            this->label24->Name = L"label24";
-            this->label24->Size = System::Drawing::Size(268, 40);
-            this->label24->TabIndex = 1;
-            this->label24->Text = L"Course Mentor";
-            this->label24->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label25
-            // 
-            this->label25->AutoSize = true;
-            this->label25->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label25->Location = System::Drawing::Point(19, 78);
-            this->label25->Name = L"label25";
-            this->label25->Size = System::Drawing::Size(187, 40);
-            this->label25->TabIndex = 1;
-            this->label25->Text = L"Course ID";
-            this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label25->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // label26
-            // 
-            this->label26->AutoSize = true;
-            this->label26->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label26->Location = System::Drawing::Point(19, 192);
-            this->label26->Name = L"label26";
-            this->label26->Size = System::Drawing::Size(292, 40);
-            this->label26->TabIndex = 1;
-            this->label26->Text = L"Dean Of Faculty";
-            this->label26->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label26->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // comboBox1
-            // 
-            this->comboBox1->AccessibleName = L"cboModule1";
-            this->comboBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->comboBox1->FormattingEnabled = true;
-            this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(5) {
-                L"", L"BCA ( Bachelor of Computer Applications )",
-                    L"B.Sc. in Information Technology ", L"B.Tech. Computer Science and Engg", L"B.Tech. Computer Engg and Communications"
-            });
-            this->comboBox1->Location = System::Drawing::Point(322, 16);
-            this->comboBox1->Name = L"comboBox1";
-            this->comboBox1->Size = System::Drawing::Size(504, 48);
-            this->comboBox1->TabIndex = 3;
-            this->comboBox1->Text = L"-Select a Course-";
-            this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
-            // 
-            // comboBox2
-            // 
-            this->comboBox2->AccessibleName = L"cboModule1";
-            this->comboBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->comboBox2->FormattingEnabled = true;
-            this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
-            this->comboBox2->Location = System::Drawing::Point(241, 73);
-            this->comboBox2->Name = L"comboBox2";
-            this->comboBox2->Size = System::Drawing::Size(164, 48);
-            this->comboBox2->TabIndex = 3;
-            this->comboBox2->Text = L"Choose";
-            this->comboBox2->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox2_SelectedIndexChanged);
-            // 
-            // comboBox3
-            // 
-            this->comboBox3->AccessibleName = L"cboModule1";
-            this->comboBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->comboBox3->FormattingEnabled = true;
-            this->comboBox3->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
-            this->comboBox3->Location = System::Drawing::Point(241, 130);
-            this->comboBox3->Name = L"comboBox3";
-            this->comboBox3->Size = System::Drawing::Size(164, 48);
-            this->comboBox3->TabIndex = 3;
-            this->comboBox3->Text = L"Choose";
-            this->comboBox3->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
-            // 
-            // comboBox4
-            // 
-            this->comboBox4->AccessibleName = L"cboModule1";
-            this->comboBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->comboBox4->FormattingEnabled = true;
-            this->comboBox4->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
-            this->comboBox4->Location = System::Drawing::Point(241, 187);
-            this->comboBox4->Name = L"comboBox4";
-            this->comboBox4->Size = System::Drawing::Size(164, 48);
-            this->comboBox4->TabIndex = 3;
-            this->comboBox4->Text = L"Choose";
-            this->comboBox4->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox2_SelectedIndexChanged);
-            // 
-            // comboBox5
-            // 
-            this->comboBox5->AccessibleName = L"cboModule1";
-            this->comboBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->comboBox5->FormattingEnabled = true;
-            this->comboBox5->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
-            this->comboBox5->Location = System::Drawing::Point(241, 243);
-            this->comboBox5->Name = L"comboBox5";
-            this->comboBox5->Size = System::Drawing::Size(164, 48);
-            this->comboBox5->TabIndex = 3;
-            this->comboBox5->Text = L"Choose";
-            this->comboBox5->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox2_SelectedIndexChanged);
-            // 
-            // textBox1
-            // 
-            this->textBox1->AccessibleName = L"txtScore1";
-            this->textBox1->Enabled = false;
-            this->textBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox1->Location = System::Drawing::Point(322, 72);
-            this->textBox1->Name = L"textBox1";
-            this->textBox1->Size = System::Drawing::Size(504, 48);
-            this->textBox1->TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this->textBox2->AccessibleName = L"txtScore1";
-            this->textBox2->Enabled = false;
-            this->textBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox2->Location = System::Drawing::Point(322, 130);
-            this->textBox2->Name = L"textBox2";
-            this->textBox2->Size = System::Drawing::Size(504, 48);
-            this->textBox2->TabIndex = 2;
-            // 
-            // textBox3
-            // 
-            this->textBox3->AccessibleName = L"txtScore1";
-            this->textBox3->Enabled = false;
-            this->textBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox3->Location = System::Drawing::Point(322, 187);
-            this->textBox3->Name = L"textBox3";
-            this->textBox3->Size = System::Drawing::Size(504, 48);
-            this->textBox3->TabIndex = 2;
-            // 
-            // textBox4
-            // 
-            this->textBox4->AccessibleName = L"txtScore1";
-            this->textBox4->Enabled = false;
-            this->textBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox4->Location = System::Drawing::Point(322, 245);
-            this->textBox4->Name = L"textBox4";
-            this->textBox4->Size = System::Drawing::Size(504, 48);
-            this->textBox4->TabIndex = 2;
-            // 
-            // textBox5
-            // 
-            this->textBox5->AccessibleName = L"txtScore1";
-            this->textBox5->Enabled = false;
-            this->textBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox5->Location = System::Drawing::Point(245, 52);
-            this->textBox5->Name = L"textBox5";
-            this->textBox5->Size = System::Drawing::Size(348, 48);
-            this->textBox5->TabIndex = 2;
-            // 
-            // textBox6
-            // 
-            this->textBox6->AccessibleName = L"txtScore1";
-            this->textBox6->Enabled = false;
-            this->textBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox6->Location = System::Drawing::Point(245, 110);
-            this->textBox6->Name = L"textBox6";
-            this->textBox6->Size = System::Drawing::Size(348, 48);
-            this->textBox6->TabIndex = 2;
-            // 
-            // textBox7
-            // 
-            this->textBox7->AccessibleName = L"txtScore1";
-            this->textBox7->Enabled = false;
-            this->textBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox7->Location = System::Drawing::Point(245, 167);
-            this->textBox7->Name = L"textBox7";
-            this->textBox7->Size = System::Drawing::Size(348, 48);
-            this->textBox7->TabIndex = 2;
-            // 
-            // textBox8
-            // 
-            this->textBox8->AccessibleName = L"txtScore1";
-            this->textBox8->Enabled = false;
-            this->textBox8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox8->Location = System::Drawing::Point(245, 224);
-            this->textBox8->Name = L"textBox8";
-            this->textBox8->Size = System::Drawing::Size(348, 48);
-            this->textBox8->TabIndex = 2;
-            // 
-            // comboBox6
-            // 
-            this->comboBox6->AccessibleName = L"cboModule1";
-            this->comboBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->comboBox6->FormattingEnabled = true;
-            this->comboBox6->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"Female", L"Male", L"Other" });
-            this->comboBox6->Location = System::Drawing::Point(245, 283);
-            this->comboBox6->Name = L"comboBox6";
-            this->comboBox6->Size = System::Drawing::Size(348, 48);
-            this->comboBox6->TabIndex = 3;
-            this->comboBox6->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
-            // 
-            // label27
-            // 
-            this->label27->AutoSize = true;
-            this->label27->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label27->Location = System::Drawing::Point(3, 61);
-            this->label27->Name = L"label27";
-            this->label27->Size = System::Drawing::Size(196, 40);
-            this->label27->TabIndex = 1;
-            this->label27->Text = L"Student ID";
-            this->label27->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label28
-            // 
-            this->label28->AutoSize = true;
-            this->label28->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label28->Location = System::Drawing::Point(3, 285);
-            this->label28->Name = L"label28";
-            this->label28->Size = System::Drawing::Size(143, 40);
-            this->label28->TabIndex = 1;
-            this->label28->Text = L"Gender";
-            this->label28->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label29
-            // 
-            this->label29->AutoSize = true;
-            this->label29->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label29->Location = System::Drawing::Point(3, 171);
-            this->label29->Name = L"label29";
-            this->label29->Size = System::Drawing::Size(200, 40);
-            this->label29->TabIndex = 1;
-            this->label29->Text = L"Last Name";
-            this->label29->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label30
-            // 
-            this->label30->AutoSize = true;
-            this->label30->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label30->Location = System::Drawing::Point(3, 115);
-            this->label30->Name = L"label30";
-            this->label30->Size = System::Drawing::Size(203, 40);
-            this->label30->TabIndex = 1;
-            this->label30->Text = L"First Name";
-            this->label30->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label30->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // label31
-            // 
-            this->label31->AutoSize = true;
-            this->label31->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label31->Location = System::Drawing::Point(3, 229);
-            this->label31->Name = L"label31";
-            this->label31->Size = System::Drawing::Size(156, 40);
-            this->label31->TabIndex = 1;
-            this->label31->Text = L"Address";
-            this->label31->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label31->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // textBox9
-            // 
-            this->textBox9->AccessibleName = L"txtScore1";
-            this->textBox9->Enabled = false;
-            this->textBox9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox9->Location = System::Drawing::Point(245, 459);
-            this->textBox9->Name = L"textBox9";
-            this->textBox9->Size = System::Drawing::Size(348, 48);
-            this->textBox9->TabIndex = 2;
-            // 
-            // label32
-            // 
-            this->label32->AutoSize = true;
-            this->label32->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label32->Location = System::Drawing::Point(3, 407);
-            this->label32->Name = L"label32";
-            this->label32->Size = System::Drawing::Size(199, 40);
-            this->label32->TabIndex = 1;
-            this->label32->Text = L"Mobile No.";
-            this->label32->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // textBox10
-            // 
-            this->textBox10->AccessibleName = L"txtScore1";
-            this->textBox10->Enabled = false;
-            this->textBox10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox10->Location = System::Drawing::Point(245, 401);
-            this->textBox10->Name = L"textBox10";
-            this->textBox10->Size = System::Drawing::Size(348, 48);
-            this->textBox10->TabIndex = 2;
+            this->label41->Location = System::Drawing::Point(3, 465);
+            this->label41->Name = L"label41";
+            this->label41->Size = System::Drawing::Size(160, 40);
+            this->label41->TabIndex = 1;
+            this->label41->Text = L"Email ID";
+            this->label41->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label41->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
             // 
             // label33
             // 
@@ -1307,6 +1557,66 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->label33->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
             this->label33->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
             // 
+            // label31
+            // 
+            this->label31->AutoSize = true;
+            this->label31->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label31->Location = System::Drawing::Point(3, 229);
+            this->label31->Name = L"label31";
+            this->label31->Size = System::Drawing::Size(156, 40);
+            this->label31->TabIndex = 1;
+            this->label31->Text = L"Address";
+            this->label31->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label31->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // textBox6
+            // 
+            this->textBox6->AccessibleName = L"txtScore1";
+            this->textBox6->Enabled = false;
+            this->textBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox6->Location = System::Drawing::Point(245, 110);
+            this->textBox6->Name = L"textBox6";
+            this->textBox6->Size = System::Drawing::Size(348, 48);
+            this->textBox6->TabIndex = 2;
+            // 
+            // label30
+            // 
+            this->label30->AutoSize = true;
+            this->label30->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label30->Location = System::Drawing::Point(3, 115);
+            this->label30->Name = L"label30";
+            this->label30->Size = System::Drawing::Size(203, 40);
+            this->label30->TabIndex = 1;
+            this->label30->Text = L"First Name";
+            this->label30->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label30->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+            // 
+            // textBox5
+            // 
+            this->textBox5->AccessibleName = L"txtScore1";
+            this->textBox5->Enabled = false;
+            this->textBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->textBox5->Location = System::Drawing::Point(245, 52);
+            this->textBox5->Name = L"textBox5";
+            this->textBox5->Size = System::Drawing::Size(348, 48);
+            this->textBox5->TabIndex = 2;
+            // 
+            // label29
+            // 
+            this->label29->AutoSize = true;
+            this->label29->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+                static_cast<System::Byte>(0)));
+            this->label29->Location = System::Drawing::Point(3, 171);
+            this->label29->Name = L"label29";
+            this->label29->Size = System::Drawing::Size(200, 40);
+            this->label29->TabIndex = 1;
+            this->label29->Text = L"Last Name";
+            this->label29->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            // 
             // textBox11
             // 
             this->textBox11->AccessibleName = L"txtScore1";
@@ -1318,419 +1628,109 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->textBox11->Size = System::Drawing::Size(348, 48);
             this->textBox11->TabIndex = 2;
             // 
-            // textBox12
+            // textBox10
             // 
-            this->textBox12->AccessibleName = L"txtScore1";
-            this->textBox12->Enabled = false;
-            this->textBox12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            this->textBox10->AccessibleName = L"txtScore1";
+            this->textBox10->Enabled = false;
+            this->textBox10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->textBox12->Location = System::Drawing::Point(245, 138);
-            this->textBox12->Name = L"textBox12";
-            this->textBox12->Size = System::Drawing::Size(348, 48);
-            this->textBox12->TabIndex = 2;
+            this->textBox10->Location = System::Drawing::Point(245, 401);
+            this->textBox10->Name = L"textBox10";
+            this->textBox10->Size = System::Drawing::Size(348, 48);
+            this->textBox10->TabIndex = 2;
             // 
-            // textBox13
+            // label32
             // 
-            this->textBox13->AccessibleName = L"txtScore1";
-            this->textBox13->Enabled = false;
-            this->textBox13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            this->label32->AutoSize = true;
+            this->label32->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->textBox13->Location = System::Drawing::Point(245, 80);
-            this->textBox13->Name = L"textBox13";
-            this->textBox13->Size = System::Drawing::Size(348, 48);
-            this->textBox13->TabIndex = 2;
+            this->label32->Location = System::Drawing::Point(3, 407);
+            this->label32->Name = L"label32";
+            this->label32->Size = System::Drawing::Size(199, 40);
+            this->label32->TabIndex = 1;
+            this->label32->Text = L"Mobile No.";
+            this->label32->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
             // 
-            // textBox14
+            // textBox7
             // 
-            this->textBox14->AccessibleName = L"txtScore1";
-            this->textBox14->Enabled = false;
-            this->textBox14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            this->textBox7->AccessibleName = L"txtScore1";
+            this->textBox7->Enabled = false;
+            this->textBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->textBox14->Location = System::Drawing::Point(245, 21);
-            this->textBox14->Name = L"textBox14";
-            this->textBox14->Size = System::Drawing::Size(348, 48);
-            this->textBox14->TabIndex = 2;
+            this->textBox7->Location = System::Drawing::Point(245, 167);
+            this->textBox7->Name = L"textBox7";
+            this->textBox7->Size = System::Drawing::Size(348, 48);
+            this->textBox7->TabIndex = 2;
             // 
-            // textBox15
+            // textBox9
             // 
-            this->textBox15->AccessibleName = L"txtScore1";
-            this->textBox15->Enabled = false;
-            this->textBox15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            this->textBox9->AccessibleName = L"txtScore1";
+            this->textBox9->Enabled = false;
+            this->textBox9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->textBox15->Location = System::Drawing::Point(245, 197);
-            this->textBox15->Name = L"textBox15";
-            this->textBox15->Size = System::Drawing::Size(348, 48);
-            this->textBox15->TabIndex = 2;
+            this->textBox9->Location = System::Drawing::Point(245, 459);
+            this->textBox9->Name = L"textBox9";
+            this->textBox9->Size = System::Drawing::Size(348, 48);
+            this->textBox9->TabIndex = 2;
             // 
-            // textBox16
+            // label28
             // 
-            this->textBox16->AccessibleName = L"txtScore1";
-            this->textBox16->Enabled = false;
-            this->textBox16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            this->label28->AutoSize = true;
+            this->label28->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->textBox16->Location = System::Drawing::Point(245, 314);
-            this->textBox16->Name = L"textBox16";
-            this->textBox16->Size = System::Drawing::Size(348, 48);
-            this->textBox16->TabIndex = 2;
+            this->label28->Location = System::Drawing::Point(3, 285);
+            this->label28->Name = L"label28";
+            this->label28->Size = System::Drawing::Size(143, 40);
+            this->label28->TabIndex = 1;
+            this->label28->Text = L"Gender";
+            this->label28->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
             // 
-            // textBox17
+            // textBox8
             // 
-            this->textBox17->AccessibleName = L"txtScore1";
-            this->textBox17->Enabled = false;
-            this->textBox17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            this->textBox8->AccessibleName = L"txtScore1";
+            this->textBox8->Enabled = false;
+            this->textBox8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->textBox17->Location = System::Drawing::Point(245, 256);
-            this->textBox17->Name = L"textBox17";
-            this->textBox17->Size = System::Drawing::Size(348, 48);
-            this->textBox17->TabIndex = 2;
+            this->textBox8->Location = System::Drawing::Point(245, 224);
+            this->textBox8->Name = L"textBox8";
+            this->textBox8->Size = System::Drawing::Size(348, 48);
+            this->textBox8->TabIndex = 2;
             // 
-            // label34
+            // label27
             // 
-            this->label34->AutoSize = true;
-            this->label34->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            this->label27->AutoSize = true;
+            this->label27->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label34->Location = System::Drawing::Point(3, 145);
-            this->label34->Name = L"label34";
-            this->label34->Size = System::Drawing::Size(200, 40);
-            this->label34->TabIndex = 1;
-            this->label34->Text = L"Last Name";
-            this->label34->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->label27->Location = System::Drawing::Point(3, 61);
+            this->label27->Name = L"label27";
+            this->label27->Size = System::Drawing::Size(196, 40);
+            this->label27->TabIndex = 1;
+            this->label27->Text = L"Student ID";
+            this->label27->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
             // 
-            // label35
+            // comboBox6
             // 
-            this->label35->AutoSize = true;
-            this->label35->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            this->comboBox6->AccessibleName = L"cboModule1";
+            this->comboBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label35->Location = System::Drawing::Point(3, 35);
-            this->label35->Name = L"label35";
-            this->label35->Size = System::Drawing::Size(173, 40);
-            this->label35->TabIndex = 1;
-            this->label35->Text = L"Guardian";
-            this->label35->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+            this->comboBox6->FormattingEnabled = true;
+            this->comboBox6->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"Female", L"Male", L"Other" });
+            this->comboBox6->Location = System::Drawing::Point(245, 283);
+            this->comboBox6->Name = L"comboBox6";
+            this->comboBox6->Size = System::Drawing::Size(348, 48);
+            this->comboBox6->TabIndex = 3;
+            this->comboBox6->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
             // 
-            // label36
+            // tabPage2
             // 
-            this->label36->AutoSize = true;
-            this->label36->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label36->Location = System::Drawing::Point(3, 259);
-            this->label36->Name = L"label36";
-            this->label36->Size = System::Drawing::Size(199, 40);
-            this->label36->TabIndex = 1;
-            this->label36->Text = L"Mobile No.";
-            this->label36->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label37
-            // 
-            this->label37->AutoSize = true;
-            this->label37->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label37->Location = System::Drawing::Point(3, 89);
-            this->label37->Name = L"label37";
-            this->label37->Size = System::Drawing::Size(203, 40);
-            this->label37->TabIndex = 1;
-            this->label37->Text = L"First Name";
-            this->label37->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label37->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // label38
-            // 
-            this->label38->AutoSize = true;
-            this->label38->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label38->Location = System::Drawing::Point(3, 203);
-            this->label38->Name = L"label38";
-            this->label38->Size = System::Drawing::Size(209, 40);
-            this->label38->TabIndex = 1;
-            this->label38->Text = L"Occupation";
-            this->label38->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label38->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // label39
-            // 
-            this->label39->AutoSize = true;
-            this->label39->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label39->Location = System::Drawing::Point(3, 314);
-            this->label39->Name = L"label39";
-            this->label39->Size = System::Drawing::Size(156, 40);
-            this->label39->TabIndex = 1;
-            this->label39->Text = L"Address";
-            this->label39->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // btnAddNew
-            // 
-            this->btnAddNew->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->btnAddNew->Location = System::Drawing::Point(66, 48);
-            this->btnAddNew->Name = L"btnAddNew";
-            this->btnAddNew->Size = System::Drawing::Size(150, 48);
-            this->btnAddNew->TabIndex = 0;
-            this->btnAddNew->Text = L"Add";
-            this->btnAddNew->UseVisualStyleBackColor = true;
-            // 
-            // btnReset
-            // 
-            this->btnReset->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->btnReset->Location = System::Drawing::Point(255, 48);
-            this->btnReset->Name = L"btnReset";
-            this->btnReset->Size = System::Drawing::Size(150, 48);
-            this->btnReset->TabIndex = 0;
-            this->btnReset->Text = L"Reset";
-            this->btnReset->UseVisualStyleBackColor = true;
-            // 
-            // btnResult
-            // 
-            this->btnResult->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->btnResult->Location = System::Drawing::Point(444, 48);
-            this->btnResult->Name = L"btnResult";
-            this->btnResult->Size = System::Drawing::Size(150, 48);
-            this->btnResult->TabIndex = 0;
-            this->btnResult->Text = L"Result";
-            this->btnResult->UseVisualStyleBackColor = true;
-            // 
-            // btnExit
-            // 
-            this->btnExit->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->btnExit->Location = System::Drawing::Point(632, 48);
-            this->btnExit->Name = L"btnExit";
-            this->btnExit->Size = System::Drawing::Size(150, 48);
-            this->btnExit->TabIndex = 0;
-            this->btnExit->Text = L"Exit";
-            this->btnExit->UseVisualStyleBackColor = true;
-            // 
-            // comboBox7
-            // 
-            this->comboBox7->AccessibleName = L"cboModule1";
-            this->comboBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->comboBox7->FormattingEnabled = true;
-            this->comboBox7->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"", L"Yes ", L"No" });
-            this->comboBox7->Location = System::Drawing::Point(241, 16);
-            this->comboBox7->Name = L"comboBox7";
-            this->comboBox7->Size = System::Drawing::Size(164, 48);
-            this->comboBox7->TabIndex = 3;
-            this->comboBox7->Text = L"Choose";
-            this->comboBox7->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox2_SelectedIndexChanged);
-            // 
-            // label41
-            // 
-            this->label41->AutoSize = true;
-            this->label41->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label41->Location = System::Drawing::Point(3, 465);
-            this->label41->Name = L"label41";
-            this->label41->Size = System::Drawing::Size(160, 40);
-            this->label41->TabIndex = 1;
-            this->label41->Text = L"Email ID";
-            this->label41->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label41->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // label40
-            // 
-            this->label40->AutoSize = true;
-            this->label40->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label40->Location = System::Drawing::Point(19, 306);
-            this->label40->Name = L"label40";
-            this->label40->Size = System::Drawing::Size(284, 40);
-            this->label40->TabIndex = 1;
-            this->label40->Text = L"Course Medium";
-            this->label40->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // comboBox8
-            // 
-            this->comboBox8->AccessibleName = L"cboModule1";
-            this->comboBox8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->comboBox8->FormattingEnabled = true;
-            this->comboBox8->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"English", L"Hindi", L"Punjabi" });
-            this->comboBox8->Location = System::Drawing::Point(322, 303);
-            this->comboBox8->Name = L"comboBox8";
-            this->comboBox8->Size = System::Drawing::Size(504, 48);
-            this->comboBox8->TabIndex = 3;
-            this->comboBox8->Text = L"-Select a Language-";
-            this->comboBox8->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
-            // 
-            // comboBox9
-            // 
-            this->comboBox9->AccessibleName = L"cboModule1";
-            this->comboBox9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->comboBox9->FormattingEnabled = true;
-            this->comboBox9->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"Easy", L"Moderate", L"Difficult" });
-            this->comboBox9->Location = System::Drawing::Point(322, 362);
-            this->comboBox9->Name = L"comboBox9";
-            this->comboBox9->Size = System::Drawing::Size(504, 48);
-            this->comboBox9->TabIndex = 3;
-            this->comboBox9->Text = L" - Select-";
-            this->comboBox9->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
-            // 
-            // label42
-            // 
-            this->label42->AutoSize = true;
-            this->label42->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label42->Location = System::Drawing::Point(19, 365);
-            this->label42->Name = L"label42";
-            this->label42->Size = System::Drawing::Size(265, 40);
-            this->label42->TabIndex = 1;
-            this->label42->Text = L"Difficulty Level";
-            this->label42->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // textBox18
-            // 
-            this->textBox18->AccessibleName = L"txtScore1";
-            this->textBox18->Enabled = false;
-            this->textBox18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox18->Location = System::Drawing::Point(257, 11);
-            this->textBox18->Name = L"textBox18";
-            this->textBox18->Size = System::Drawing::Size(120, 48);
-            this->textBox18->TabIndex = 2;
-            this->textBox18->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
-            // 
-            // label16
-            // 
-            this->label16->AutoSize = true;
-            this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label16->Location = System::Drawing::Point(20, 19);
-            this->label16->Name = L"label16";
-            this->label16->Size = System::Drawing::Size(140, 40);
-            this->label16->TabIndex = 1;
-            this->label16->Text = L"Income";
-            this->label16->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label20
-            // 
-            this->label20->AutoSize = true;
-            this->label20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label20->Location = System::Drawing::Point(20, 243);
-            this->label20->Name = L"label20";
-            this->label20->Size = System::Drawing::Size(203, 40);
-            this->label20->TabIndex = 1;
-            this->label20->Text = L"12th Board";
-            this->label20->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label17
-            // 
-            this->label17->AutoSize = true;
-            this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label17->Location = System::Drawing::Point(20, 73);
-            this->label17->Name = L"label17";
-            this->label17->Size = System::Drawing::Size(151, 40);
-            this->label17->TabIndex = 1;
-            this->label17->Text = L"Siblings";
-            this->label17->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label17->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // label21
-            // 
-            this->label21->AutoSize = true;
-            this->label21->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label21->Location = System::Drawing::Point(20, 187);
-            this->label21->Name = L"label21";
-            this->label21->Size = System::Drawing::Size(203, 40);
-            this->label21->TabIndex = 1;
-            this->label21->Text = L"10th Board";
-            this->label21->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label21->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // numericUpDown2
-            // 
-            this->numericUpDown2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->numericUpDown2->Location = System::Drawing::Point(257, 70);
-            this->numericUpDown2->Name = L"numericUpDown2";
-            this->numericUpDown2->Size = System::Drawing::Size(120, 48);
-            this->numericUpDown2->TabIndex = 2;
-            this->numericUpDown2->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
-            // 
-            // panel6
-            // 
-            this->panel6->BackColor = System::Drawing::SystemColors::Control;
-            this->panel6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
-            this->panel6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-            this->panel6->Controls->Add(this->numericUpDown1);
-            this->panel6->Controls->Add(this->numericUpDown2);
-            this->panel6->Controls->Add(this->label21);
-            this->panel6->Controls->Add(this->label15);
-            this->panel6->Controls->Add(this->label17);
-            this->panel6->Controls->Add(this->label20);
-            this->panel6->Controls->Add(this->label16);
-            this->panel6->Controls->Add(this->textBox18);
-            this->panel6->Controls->Add(this->textBox20);
-            this->panel6->Controls->Add(this->textBox19);
-            this->panel6->Location = System::Drawing::Point(1094, 488);
-            this->panel6->Name = L"panel6";
-            this->panel6->Size = System::Drawing::Size(410, 328);
-            this->panel6->TabIndex = 0;
-            // 
-            // label18
-            // 
-            this->label18->AutoSize = true;
-            this->label18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label18->Location = System::Drawing::Point(19, 246);
-            this->label18->Name = L"label18";
-            this->label18->Size = System::Drawing::Size(216, 40);
-            this->label18->TabIndex = 1;
-            this->label18->Text = L"Scholarship";
-            this->label18->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            // 
-            // label15
-            // 
-            this->label15->AutoSize = true;
-            this->label15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->label15->Location = System::Drawing::Point(20, 133);
-            this->label15->Name = L"label15";
-            this->label15->Size = System::Drawing::Size(171, 40);
-            this->label15->TabIndex = 1;
-            this->label15->Text = L"Backlogs";
-            this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-            this->label15->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
-            // 
-            // numericUpDown1
-            // 
-            this->numericUpDown1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->numericUpDown1->Location = System::Drawing::Point(257, 127);
-            this->numericUpDown1->Name = L"numericUpDown1";
-            this->numericUpDown1->Size = System::Drawing::Size(120, 48);
-            this->numericUpDown1->TabIndex = 2;
-            this->numericUpDown1->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
-            // 
-            // textBox19
-            // 
-            this->textBox19->AccessibleName = L"txtScore1";
-            this->textBox19->Enabled = false;
-            this->textBox19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox19->Location = System::Drawing::Point(257, 184);
-            this->textBox19->Name = L"textBox19";
-            this->textBox19->Size = System::Drawing::Size(120, 48);
-            this->textBox19->TabIndex = 2;
-            this->textBox19->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
-            // 
-            // textBox20
-            // 
-            this->textBox20->AccessibleName = L"txtScore1";
-            this->textBox20->Enabled = false;
-            this->textBox20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(0)));
-            this->textBox20->Location = System::Drawing::Point(257, 241);
-            this->textBox20->Name = L"textBox20";
-            this->textBox20->Size = System::Drawing::Size(120, 48);
-            this->textBox20->TabIndex = 2;
-            this->textBox20->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            this->tabPage2->Location = System::Drawing::Point(4, 29);
+            this->tabPage2->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+            this->tabPage2->Name = L"tabPage2";
+            this->tabPage2->Padding = System::Windows::Forms::Padding(4, 5, 4, 5);
+            this->tabPage2->Size = System::Drawing::Size(1917, 1017);
+            this->tabPage2->TabIndex = 1;
+            this->tabPage2->Text = L"Student Database";
+            this->tabPage2->UseVisualStyleBackColor = true;
             // 
             // MyForm
             // 
@@ -1747,6 +1747,10 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->panel1->ResumeLayout(false);
             this->panel1->PerformLayout();
             this->panel7->ResumeLayout(false);
+            this->panel6->ResumeLayout(false);
+            this->panel6->PerformLayout();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown1))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown2))->EndInit();
             this->panel4->ResumeLayout(false);
             this->panel4->PerformLayout();
             this->panel5->ResumeLayout(false);
@@ -1756,10 +1760,6 @@ private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
             this->panel3->PerformLayout();
             this->panel2->ResumeLayout(false);
             this->panel2->PerformLayout();
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown2))->EndInit();
-            this->panel6->ResumeLayout(false);
-            this->panel6->PerformLayout();
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown1))->EndInit();
             this->ResumeLayout(false);
 
         }
