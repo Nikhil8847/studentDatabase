@@ -482,6 +482,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->tabControl1->Size = System::Drawing::Size(1924, 1049);
             this->tabControl1->SizeMode = System::Windows::Forms::TabSizeMode::FillToRight;
             this->tabControl1->TabIndex = 0;
+            this->tabControl1->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // tabPage1
             // 
@@ -1052,6 +1053,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->panel5->Name = L"panel5";
             this->panel5->Size = System::Drawing::Size(386, 971);
             this->panel5->TabIndex = 0;
+            this->panel5->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // cboModule6
             // 
@@ -1059,14 +1061,15 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->cboModule6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
             this->cboModule6->FormattingEnabled = true;
-            this->cboModule6->Items->AddRange(gcnew cli::array< System::Object^  >(3) {
-                L"Object Oriented Design", L"Software Testing",
+            this->cboModule6->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+                L"", L"Object Oriented Design", L"Software Testing",
                     L"Procedural Programming"
             });
             this->cboModule6->Location = System::Drawing::Point(74, 631);
             this->cboModule6->Name = L"cboModule6";
             this->cboModule6->Size = System::Drawing::Size(206, 48);
             this->cboModule6->TabIndex = 3;
+            this->cboModule6->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cboModule6_SelectedIndexChanged);
             // 
             // cboModule8
             // 
@@ -1074,11 +1077,12 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->cboModule8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
             this->cboModule8->FormattingEnabled = true;
-            this->cboModule8->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Computer gaming", L"Animation", L"Graphics designing" });
+            this->cboModule8->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"Computer gaming", L"Animation", L"Graphics designing" });
             this->cboModule8->Location = System::Drawing::Point(74, 760);
             this->cboModule8->Name = L"cboModule8";
             this->cboModule8->Size = System::Drawing::Size(206, 48);
             this->cboModule8->TabIndex = 3;
+            this->cboModule8->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cboModule8_SelectedIndexChanged);
             // 
             // cboModule3
             // 
@@ -1086,14 +1090,15 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->cboModule3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
             this->cboModule3->FormattingEnabled = true;
-            this->cboModule3->Items->AddRange(gcnew cli::array< System::Object^  >(3) {
-                L"System Analysis and Design", L"Information Technology",
+            this->cboModule3->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+                L"", L"System Analysis and Design", L"Information Technology",
                     L"Network Management"
             });
             this->cboModule3->Location = System::Drawing::Point(74, 432);
             this->cboModule3->Name = L"cboModule3";
             this->cboModule3->Size = System::Drawing::Size(206, 48);
             this->cboModule3->TabIndex = 3;
+            this->cboModule3->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cboModule3_SelectedIndexChanged);
             // 
             // cboModule5
             // 
@@ -1101,11 +1106,12 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->cboModule5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
             this->cboModule5->FormattingEnabled = true;
-            this->cboModule5->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"JavaScript", L"Website Development", L"PHP Programming" });
+            this->cboModule5->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"JavaScript", L"Website Development", L"PHP Programming" });
             this->cboModule5->Location = System::Drawing::Point(74, 565);
             this->cboModule5->Name = L"cboModule5";
             this->cboModule5->Size = System::Drawing::Size(206, 48);
             this->cboModule5->TabIndex = 3;
+            this->cboModule5->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cboModule5_SelectedIndexChanged);
             // 
             // cboModule7
             // 
@@ -1113,11 +1119,12 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->cboModule7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
             this->cboModule7->FormattingEnabled = true;
-            this->cboModule7->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Cyber Security", L"Raspberry Pi", L"MATLAB" });
+            this->cboModule7->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"Cyber Security", L"Raspberry Pi", L"MATLAB" });
             this->cboModule7->Location = System::Drawing::Point(74, 695);
             this->cboModule7->Name = L"cboModule7";
             this->cboModule7->Size = System::Drawing::Size(206, 48);
             this->cboModule7->TabIndex = 3;
+            this->cboModule7->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cboModule7_SelectedIndexChanged);
             // 
             // cboModule2
             // 
@@ -1125,11 +1132,12 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->cboModule2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
             this->cboModule2->FormattingEnabled = true;
-            this->cboModule2->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Excel Spreadsheet", L"Database", L"SQL" });
+            this->cboModule2->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"", L"Excel Spreadsheet", L"Database", L"SQL" });
             this->cboModule2->Location = System::Drawing::Point(74, 368);
             this->cboModule2->Name = L"cboModule2";
             this->cboModule2->Size = System::Drawing::Size(206, 48);
             this->cboModule2->TabIndex = 3;
+            this->cboModule2->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cboModule2_SelectedIndexChanged);
             // 
             // txtScore8
             // 
@@ -1143,6 +1151,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->txtScore8->TabIndex = 2;
             this->txtScore8->Text = L"0";
             this->txtScore8->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            this->txtScore8->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // txtScore6
             // 
@@ -1156,6 +1165,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->txtScore6->TabIndex = 2;
             this->txtScore6->Text = L"0";
             this->txtScore6->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            this->txtScore6->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // txtScore3
             // 
@@ -1169,6 +1179,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->txtScore3->TabIndex = 2;
             this->txtScore3->Text = L"0";
             this->txtScore3->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            this->txtScore3->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // txtScore5
             // 
@@ -1182,6 +1193,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->txtScore5->TabIndex = 2;
             this->txtScore5->Text = L"0";
             this->txtScore5->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            this->txtScore5->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // txtScore7
             // 
@@ -1195,6 +1207,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->txtScore7->TabIndex = 2;
             this->txtScore7->Text = L"0";
             this->txtScore7->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            this->txtScore7->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // cboModule4
             // 
@@ -1202,14 +1215,15 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->cboModule4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
             this->cboModule4->FormattingEnabled = true;
-            this->cboModule4->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
-                L"Machine Learning", L"Artificial Intelligence",
+            this->cboModule4->Items->AddRange(gcnew cli::array< System::Object^  >(5) {
+                L"", L"Machine Learning", L"Artificial Intelligence",
                     L"Data Science", L"Satistics"
             });
             this->cboModule4->Location = System::Drawing::Point(74, 498);
             this->cboModule4->Name = L"cboModule4";
             this->cboModule4->Size = System::Drawing::Size(206, 48);
             this->cboModule4->TabIndex = 3;
+            this->cboModule4->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cboModule4_SelectedIndexChanged);
             // 
             // txtScore2
             // 
@@ -1223,6 +1237,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->txtScore2->TabIndex = 2;
             this->txtScore2->Text = L"0";
             this->txtScore2->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            this->txtScore2->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // txtScore4
             // 
@@ -1236,6 +1251,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->txtScore4->TabIndex = 2;
             this->txtScore4->Text = L"0";
             this->txtScore4->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            this->txtScore4->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // cboModule1
             // 
@@ -1243,14 +1259,15 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->cboModule1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
             this->cboModule1->FormattingEnabled = true;
-            this->cboModule1->Items->AddRange(gcnew cli::array< System::Object^  >(3) {
-                L"Visual C++ Programming", L"Python Programming",
+            this->cboModule1->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+                L"", L"Visual C++ Programming", L"Python Programming",
                     L"Java Programming"
             });
             this->cboModule1->Location = System::Drawing::Point(74, 300);
             this->cboModule1->Name = L"cboModule1";
             this->cboModule1->Size = System::Drawing::Size(206, 48);
             this->cboModule1->TabIndex = 3;
+            this->cboModule1->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cboModule1_SelectedIndexChanged);
             // 
             // txtScore1
             // 
@@ -1264,6 +1281,7 @@ private: System::Windows::Forms::DataGridView^ dataGridView1;
             this->txtScore1->TabIndex = 2;
             this->txtScore1->Text = L"0";
             this->txtScore1->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+            this->txtScore1->MouseLeave += gcnew System::EventHandler(this, &MyForm::MLeaves);
             // 
             // lblDate
             // 
@@ -2061,5 +2079,120 @@ private: System::Void btnExit_Click(System::Object^ sender, System::EventArgs^ e
 }
 
 
+private: System::Void cboModule1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (cboModule1->Text == "")
+    {
+        txtScore1->Text = "0";
+        txtScore1->Enabled = false;
+     }
+    else
+    {
+        txtScore1->Enabled = true;
+        txtScore1->Text = " ";
+        txtScore1->Focus();
+
+    }
+}
+private: System::Void cboModule2_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (cboModule2->Text == "")
+    {
+        txtScore2->Text = "0";
+        txtScore2->Enabled = false;
+    }
+    else
+    {
+        txtScore2->Enabled = true;
+        txtScore2->Text = "";
+        txtScore2->Focus();
+
+    }
+}
+private: System::Void cboModule3_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (cboModule3->Text == "")
+    {
+        txtScore3->Text = "0";
+        txtScore3->Enabled = false;
+    }
+    else
+    {
+        txtScore3->Enabled = true;
+        txtScore3->Text = "";
+        txtScore3->Focus();
+
+    }
+}
+private: System::Void cboModule4_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (cboModule4->Text == "")
+    {
+        txtScore4->Text = "0";
+        txtScore4->Enabled = false;
+    }
+    else
+    {
+        txtScore4->Enabled = true;
+        txtScore4->Text = "";
+        txtScore4->Focus();
+
+    }
+}
+private: System::Void cboModule5_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (cboModule5->Text == "")
+    {
+        txtScore5->Text = "0";
+        txtScore5->Enabled = false;
+    }
+    else
+    {
+        txtScore5->Enabled = true;
+        txtScore5->Text = "";
+        txtScore5->Focus();
+
+    }
+}
+private: System::Void cboModule6_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (cboModule6->Text == "")
+    {
+        txtScore6->Text = "0";
+        txtScore6->Enabled = false;
+    }
+    else
+    {
+        txtScore6->Enabled = true;
+        txtScore6->Text = "";
+        txtScore6->Focus();
+
+    }
+}
+private: System::Void cboModule7_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (cboModule7->Text == "")
+    {
+        txtScore7->Text = "0";
+        txtScore7->Enabled = false;
+    }
+    else
+    {
+        txtScore7->Enabled = true;
+        txtScore7->Text = "";
+        txtScore7->Focus();
+
+    }
+}
+private: System::Void cboModule8_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (cboModule8->Text == "")
+    {
+        txtScore8->Text = "0";
+        txtScore8->Enabled = false;
+    }
+    else
+    {
+        txtScore8->Enabled = true;
+        txtScore8->Text = "";
+        txtScore8->Focus();
+
+    }
+}
+private: System::Void MLeaves(System::Object^ sender, System::EventArgs^ e) {
+    TextBox^ c = safe_cast<TextBox^>(sender);
+}
 };
 }
