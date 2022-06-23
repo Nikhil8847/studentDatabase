@@ -61,7 +61,8 @@ namespace studentDatabase {
 	private: System::Windows::Forms::Label^ label17;
 	private: System::Windows::Forms::Label^ label20;
 	private: System::Windows::Forms::Label^ label16;
-	private: System::Windows::Forms::TextBox^ txtIncome;
+	private: System::Windows::Forms::TextBox^ txtYear;
+
 	private: System::Windows::Forms::TextBox^ txtBoard2;
 
 
@@ -370,7 +371,7 @@ namespace studentDatabase {
 			this->label17 = (gcnew System::Windows::Forms::Label());
 			this->label20 = (gcnew System::Windows::Forms::Label());
 			this->label16 = (gcnew System::Windows::Forms::Label());
-			this->txtIncome = (gcnew System::Windows::Forms::TextBox());
+			this->txtYear = (gcnew System::Windows::Forms::TextBox());
 			this->txtBoard2 = (gcnew System::Windows::Forms::TextBox());
 			this->txtBoard1 = (gcnew System::Windows::Forms::TextBox());
 			this->panel4 = (gcnew System::Windows::Forms::Panel());
@@ -735,7 +736,7 @@ namespace studentDatabase {
 			this->panel6->Controls->Add(this->label17);
 			this->panel6->Controls->Add(this->label20);
 			this->panel6->Controls->Add(this->label16);
-			this->panel6->Controls->Add(this->txtIncome);
+			this->panel6->Controls->Add(this->txtYear);
 			this->panel6->Controls->Add(this->txtBoard2);
 			this->panel6->Controls->Add(this->txtBoard1);
 			this->panel6->Location = System::Drawing::Point(1119, 488);
@@ -770,9 +771,9 @@ namespace studentDatabase {
 				static_cast<System::Byte>(0)));
 			this->label21->Location = System::Drawing::Point(20, 188);
 			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(203, 40);
+			this->label21->Size = System::Drawing::Size(221, 40);
 			this->label21->TabIndex = 1;
-			this->label21->Text = L"10th Board";
+			this->label21->Text = L"Prev. SGPA";
 			this->label21->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			this->label21->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
 			// 
@@ -809,9 +810,9 @@ namespace studentDatabase {
 				static_cast<System::Byte>(0)));
 			this->label20->Location = System::Drawing::Point(20, 243);
 			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(203, 40);
+			this->label20->Size = System::Drawing::Size(123, 40);
 			this->label20->TabIndex = 1;
-			this->label20->Text = L"12th Board";
+			this->label20->Text = L"CGPA";
 			this->label20->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// label16
@@ -821,21 +822,21 @@ namespace studentDatabase {
 				static_cast<System::Byte>(0)));
 			this->label16->Location = System::Drawing::Point(20, 18);
 			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(140, 40);
+			this->label16->Size = System::Drawing::Size(96, 40);
 			this->label16->TabIndex = 1;
-			this->label16->Text = L"Income";
+			this->label16->Text = L"Year";
 			this->label16->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
-			// txtIncome
+			// txtYear
 			// 
-			this->txtIncome->AccessibleName = L"txtScore1";
-			this->txtIncome->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->txtYear->AccessibleName = L"txtScore1";
+			this->txtYear->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->txtIncome->Location = System::Drawing::Point(256, 11);
-			this->txtIncome->Name = L"txtIncome";
-			this->txtIncome->Size = System::Drawing::Size(109, 48);
-			this->txtIncome->TabIndex = 2;
-			this->txtIncome->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			this->txtYear->Location = System::Drawing::Point(256, 11);
+			this->txtYear->Name = L"txtYear";
+			this->txtYear->Size = System::Drawing::Size(109, 48);
+			this->txtYear->TabIndex = 2;
+			this->txtYear->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
 			// 
 			// txtBoard2
 			// 
@@ -1900,6 +1901,7 @@ namespace studentDatabase {
 			this->dataGridView1->RowHeadersWidth = 62;
 			this->dataGridView1->Size = System::Drawing::Size(1892, 988);
 			this->dataGridView1->TabIndex = 0;
+			this->dataGridView1->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &MyForm::dataGridView1_CellClick);
 			this->dataGridView1->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &MyForm::dataGridView1_CellContentClick);
 			// 
 			// MyForm
@@ -2039,7 +2041,7 @@ namespace studentDatabase {
 				txtAddress->Text + " ',' " + cboGender->Text + " ',' " + txtDOB->Text + " ',' " + txtMobile->Text + " ',' " +
 				txtEmail->Text + " ',' " + cboCourse->Text + " ',' " + txtCourseID->Text + " ',' " + cboCourseMedium->Text + " ',' " +
 				cboDifficultyLevel->Text + " ',' " + cboDayScholar->Text + " ',' " + cboOtherState->Text + " ',' " +
-				cboOverseas->Text + " ',' " + cboHosteller->Text + " ',' " + cboScholarship->Text + " ',' " + txtIncome->Text + " ',' " +
+				cboOverseas->Text + " ',' " + cboHosteller->Text + " ',' " + cboScholarship->Text + " ',' " + txtYear->Text + " ',' " +
 				nudSiblings->Text + " ',' " + nudBacklogs->Text + " ',' " + txtBoard1->Text + " ',' " + txtBoard2->Text + " ',' " +
 				cboModule1->Text + " ',' " + cboModule2->Text + " ',' " + cboModule3->Text + " ',' " + cboModule4->Text + " ',' " +
 				cboModule5->Text + " ',' " + cboModule6->Text + " ',' " + cboModule7->Text + " ',' " + cboModule8->Text + " ',' " +
@@ -2226,7 +2228,7 @@ private: System::Void btnReset_Click(System::Object^ sender, System::EventArgs^ 
 	cboHosteller->Text = "No";
 	cboScholarship->Text = "No";
 
-	txtIncome->Text = "";
+	txtYear->Text = "";
 	nudSiblings->Text = "0";
 	nudBacklogs->Text = "0";
 	txtBoard1->Text = "";
@@ -2315,6 +2317,84 @@ private: System::Void btnResult_Click(System::Object^ sender, System::EventArgs^
 			lblPercentage->Text = Convert::ToString(Unit[8] / 8);
 			lblDate->Text = monthCalendar1->SelectionStart.ToLongDateString();
 		}
+	}
+	catch (Exception^ ex)
+	{
+		MessageBox::Show(ex->Message);
+	}
+}
+private: System::Void dataGridView1_CellClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
+	try
+	{
+		txtStudentID->Text = dataGridView1->SelectedRows[0]->Cells[0]->Value->ToString();
+		txtFirstName->Text = dataGridView1->SelectedRows[0]->Cells[1]->Value->ToString();
+		txtLastName->Text = dataGridView1->SelectedRows[0]->Cells[2]->Value->ToString();
+		txtAddress->Text = dataGridView1->SelectedRows[0]->Cells[3]->Value->ToString();
+		cboGender->Text = dataGridView1->SelectedRows[0]->Cells[4]->Value->ToString();
+
+		txtDOB->Text = dataGridView1->SelectedRows[0]->Cells[6]->Value->ToString();
+		txtMobile->Text = dataGridView1->SelectedRows[0]->Cells[7]->Value->ToString();
+		txtEmail->Text = dataGridView1->SelectedRows[0]->Cells[8]->Value->ToString();
+
+
+		cboCourse->Text = dataGridView1->SelectedRows[0]->Cells[9]->Value->ToString();
+		txtCourseID->Text = dataGridView1->SelectedRows[0]->Cells[10]->Value->ToString();
+		cboCourseMedium->Text = dataGridView1->SelectedRows[0]->Cells[11]->Value->ToString();
+		cboDifficultyLevel->Text = dataGridView1->SelectedRows[0]->Cells[12]->Value->ToString();
+
+
+		cboDayScholar->Text = dataGridView1->SelectedRows[0]->Cells[13]->Value->ToString();
+		cboOtherState->Text = dataGridView1->SelectedRows[0]->Cells[14]->Value->ToString();
+		cboOverseas->Text = dataGridView1->SelectedRows[0]->Cells[15]->Value->ToString();
+		cboHosteller->Text = dataGridView1->SelectedRows[0]->Cells[16]->Value->ToString();
+		cboScholarship->Text = dataGridView1->SelectedRows[0]->Cells[17]->Value->ToString();
+
+		txtYear->Text = dataGridView1->SelectedRows[0]->Cells[18]->Value->ToString();
+		nudSiblings->Text = dataGridView1->SelectedRows[0]->Cells[19]->Value->ToString();
+		nudBacklogs->Text = dataGridView1->SelectedRows[0]->Cells[20]->Value->ToString();
+		txtBoard1->Text = dataGridView1->SelectedRows[0]->Cells[21]->Value->ToString();
+		txtBoard2->Text = dataGridView1->SelectedRows[0]->Cells[22]->Value->ToString();
+
+		cboModule1->Text = dataGridView1->SelectedRows[0]->Cells[23]->Value->ToString();
+		cboModule2->Text = dataGridView1->SelectedRows[0]->Cells[24]->Value->ToString();
+		cboModule3->Text = dataGridView1->SelectedRows[0]->Cells[25]->Value->ToString();
+		cboModule4->Text = dataGridView1->SelectedRows[0]->Cells[26]->Value->ToString();
+		cboModule5->Text = dataGridView1->SelectedRows[0]->Cells[27]->Value->ToString();
+		cboModule6->Text = dataGridView1->SelectedRows[0]->Cells[28]->Value->ToString();
+		cboModule7->Text = dataGridView1->SelectedRows[0]->Cells[29]->Value->ToString();
+		cboModule8->Text = dataGridView1->SelectedRows[0]->Cells[30]->Value->ToString();
+
+		txtScore1->Text = dataGridView1->SelectedRows[0]->Cells[31]->Value->ToString();
+		txtScore2->Text = dataGridView1->SelectedRows[0]->Cells[32]->Value->ToString();
+		txtScore3->Text = dataGridView1->SelectedRows[0]->Cells[33]->Value->ToString();
+		txtScore4->Text = dataGridView1->SelectedRows[0]->Cells[34]->Value->ToString();
+		txtScore5->Text = dataGridView1->SelectedRows[0]->Cells[35]->Value->ToString();
+		txtScore6->Text = dataGridView1->SelectedRows[0]->Cells[36]->Value->ToString();
+		txtScore7->Text = dataGridView1->SelectedRows[0]->Cells[37]->Value->ToString();
+		txtScore8->Text = dataGridView1->SelectedRows[0]->Cells[38]->Value->ToString();
+
+		lblTotal->Text = dataGridView1->SelectedRows[0]->Cells[39]->Value->ToString();
+		lblPercentage->Text = dataGridView1->SelectedRows[0]->Cells[40]->Value->ToString();
+		lblDate->Text = dataGridView1->SelectedRows[0]->Cells[41]->Value->ToString();
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
 	}
 	catch (Exception^ ex)
 	{
